@@ -1,0 +1,21 @@
+.food-dislay{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.food-display{
+    font-size: max(2vw, 24px);
+    font-weight: 500;
+}
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+    transition: 20s;
+    animation: fadeIn 3s;
+}
